@@ -22,7 +22,7 @@ public class Task1_v2 {
             Comparator<? super T> order,
             BiConsumer<? super T, ? super T> minMaxConsumer
     ) {
-        List<T> arrayList;
+        List<T> arrayList = new ArrayList<>();
         T min = null;
         T max = null;
 
