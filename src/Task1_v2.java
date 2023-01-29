@@ -14,7 +14,7 @@ public class Task1_v2 {
         list.add(74);
         list.add(31);
         Stream<Integer> streamList = list.stream();
-        findMinMax(streamList, Comparator.comparingInt(i -> i), (min, max) -> System.out.println("Минимальное - " + min + ", Максимальное - " + max));
+        findMinMax(streamList, Comparator.comparingInt(i -> i), (minimum, maximum) -> System.out.println("Минимальное - " + minimum + ", Максимальное - " + maximum));
     }
 
     public static <T> void findMinMax(
